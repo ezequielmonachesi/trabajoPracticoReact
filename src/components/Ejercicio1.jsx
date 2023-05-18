@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Ejercicio1 = () => {
+const Ejercicio1 = ({content}) => {
+
     return (
         <div>
-            <h1>Hello World!</h1>
+            <h1>Hello {content}!</h1>
         </div>
     );
 };
